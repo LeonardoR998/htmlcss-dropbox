@@ -187,3 +187,43 @@ ul {
 .instruments .hor-card {
   flex-wrap: wrap;
 }
+
+/* PARTNERS */
+
+.partner > .container {
+  display: flex;
+  gap: 2rem;
+  padding-top: 100px;
+}
+
+.partner .partner-title {
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+
+.partner .button-partner {
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+/* OPERATION */
+
+.operation > .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 100px;
+}
+
+.operation > .container * {
+  flex-grow: 1;
+}
+
+.operation .operation-title {
+  padding-bottom: 30px;
+}
