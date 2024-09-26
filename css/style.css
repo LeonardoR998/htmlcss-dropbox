@@ -49,12 +49,13 @@ ul {
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .card-head {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   padding: 0.5rem;
+  padding-left: 100px;
 }
 
 .card-body {
@@ -133,9 +134,7 @@ ul {
 /* MAIN */
 
 .instruments {
-  height: 900px;
   padding-top: 150px;
-  background-color: aqua;
 }
 
 .instruments .plan-item {
@@ -155,8 +154,7 @@ ul {
 
 .instruments-card {
   /* debug */
-  border: 1px dashed black;
-  background-color: grey;
+
   padding: 10px;
   min-height: 50px;
 }
@@ -165,4 +163,27 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  padding-top: 30px;
+}
+
+.card-button {
+  padding: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: #0061ff;
+  color: white;
+  background-color: #0061ff;
+}
+
+.instruments .list-item {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.instruments .card-title {
+  padding-bottom: 10px;
+}
+
+.instruments .hor-card {
+  flex-wrap: wrap;
 }
